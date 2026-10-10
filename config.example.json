@@ -1,0 +1,36 @@
+{
+  "calendars": ["primary"],
+  "ntfy_server": "https://ntfy.sh",
+  "ntfy_topic": "",
+  "push_include_summary": true,
+  "oauth_keys": "~/.config/meeting-guard/gcp-oauth.keys.json",
+  "tokens": "~/.config/meeting-guard/tokens.json",
+  "token_profile": "",
+  "say_voice": "Kyoko",
+  "twilio_voice": "Polly.Mizuki",
+  "twilio_language": "ja-JP",
+  "call_include_summary": false,
+  "auto_open": true,
+  "escalate_linkless": false,
+  "include_unaccepted": false,
+  "exclude_summary_contains": [],
+  "max_events_per_run": 3,
+  "nag_minutes": 10,
+  "nag_interval_sec": 110,
+  "call": {
+    "enabled": false,
+    "after_min": 2,
+    "env_file": "~/.config/meeting-guard/secrets.env",
+    "allowed_from_prefix": "",
+    "allowed_to_prefix": "",
+    "max_per_day": 2,
+    "min_interval_min": 30
+  },
+  "stages": {
+    "push10": 10.5,
+    "voice5": 5.5,
+    "dialog1": 1.5,
+    "open0": 0.6
+  },
+  "messages": {}
+}

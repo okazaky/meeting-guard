@@ -1,0 +1,15 @@
+config.json
+secrets.env
+*.env
+state.json
+acks.txt
+calls.json
+*.lock
+logs/
+.lock
+__pycache__/
+tokens.json
+*keys*.json
+*.tmp
+*.bak
+.DS_Store
